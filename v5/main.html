@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <canvas id="canvas" width="500" height="500"></canvas>
+    <br>
+    Shape:
+    <select id="shapeSelect">
+        <option value="line">LINE</option>
+        <option value="rectangle">RECTANGLE</option>
+        <option value="circle">CIRCLE</option>
+    </select>
+    Colour:
+    <input type="color" id="colorPicker" value="#000000">
+    Thickness:
+    <input type="range" id="thicknessSlider" min="1" max="20" value="1">
+    <button id="clearButton">DELETE</button>
+    <script src="still.js"></script>
+</body>
+</html>
